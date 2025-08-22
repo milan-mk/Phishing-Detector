@@ -56,6 +56,7 @@ def dns_logger(packet):
             )
             
             print(f"[DNS Visited : ] {src} → {query}")
+            time.sleep(15)
             check(query)
 
             
