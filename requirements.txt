@@ -1,0 +1,9 @@
+threading
+flask
+tldextract
+pystray
+PIL
+requests
+win10toast
+dotenv
+os
