@@ -107,14 +107,24 @@ React js
    `python PhishShield-App/start.bat`
 
 #### III. PhishShield-App+Relay Extension
-1. Open your browser and go to `chrome://extensions`
-3. Enable **Developer mode**
-4. Click **Load unpacked** and select the `phishshield-extension/` folder.
-5. The **PhishShield** icon will appear in the extensions toolbar.
+1. Open your browser and go to `chrome://extensions`.
+
+2. Enable **Developer mode**
+
+3. Click **Load unpacked** and select the `phishshield-extension/` folder.
+
+4. The **PhishShield** icon will appear in the extensions toolbar.
 
 ---
 
 ## 📖 Usage
+#### I. PhishShield-App+Relay Extension
+You just need to run this app once and it will automatically report all phishing related notifications as long as you keep it running.
+
+#### II. PhishShield-App Extension
+You just need to run this app once and it will automatically report all phishing related notifications as long as you keep it running.
+
+#### III. PhishShield-Web Extension
 
 1. Navigate to any **HTTPS** website.
 2. Click on the **PhishShield** icon in the Chrome toolbar.
