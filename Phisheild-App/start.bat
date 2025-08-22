@@ -2,4 +2,4 @@
 
 echo Start Phishing Detector
 
-python agent_ui.py
+python realTimeAllTraffic.py
