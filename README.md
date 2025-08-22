@@ -41,9 +41,24 @@ It helps detect potential phishing attempts by checking the certificate chain, v
 - Displays full verdict.
 - Quick Popup Notification to ensure no harm is done to user data
 
+### 2. Implementation(App)
+- Near Instant notification of phishing as soon as it is detected in the browser.
+- Scans any and all the outgoing traffic of the device to ensure no phishing attempts, and reports them as soon as possible . 
+- Uses WindowsToast Notification to inform the user of phishing attempts.
+- Only reports the attempts of phishing so there is no need for user to concern themselves with safe cases being notified every time.
+
 -------
 
 ## 📂 Project Structure
+
+PhishShield/
+├── Phisheild-App/
+├── Phishshield-App+Extension/
+├── Phishshield-extension/
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 
 -------
@@ -57,9 +72,43 @@ React js
 
 ## 🔧 Installation
 
-1. Download and extract the repository (or `phishshield-extension-fixed.zip`).
-2. Open Chrome and go to `chrome://extensions/`.
-3. Enable **Developer mode** (toggle in the top right).
+1. Download and extract the repository.
+
+#### I. PhishShield-App
+1. Open the repo or use&nbsp;&nbsp;&nbsp;&nbsp; `cd Team_INIT-PhisShield`
+
+2. Run the following command in terminal to install the required libraries. <br>
+`pip install -u requirements.txt`.
+
+3. Also download and install <a href="https://npcap.com/#download">npcap for your device.</a>
+
+4. Run the following command in terminal.
+
+`python PhishShield-App/start.bat`
+
+#### II. PhishShield-App+Relay Extension
+1. Open the repo or use&nbsp;&nbsp;&nbsp;&nbsp; `cd Team_INIT-PhisShield`
+
+2. Run the following command in terminal to install the required libraries. <br>
+`pip install -u requirements.txt`.
+
+3. Also download and install <a href="https://npcap.com/#download">npcap for your device.</a>
+
+4. Open your browser and go to  `chrome://extensions`
+
+5. Enable `Developer Mode`.
+
+6. Load the extension folder.
+
+7. Now go back to the opened repo and run the following command in terminal.
+
+8. Run the following command in terminal.
+
+   `python PhishShield-App/start.bat`
+
+#### III. PhishShield-App+Relay Extension
+1. Open your browser and go to `chrome://extensions`
+3. Enable **Developer mode**
 4. Click **Load unpacked** and select the `phishshield-extension/` folder.
 5. The **PhishShield** icon will appear in the extensions toolbar.
 
